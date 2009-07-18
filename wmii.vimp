@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+  
+
+
+  
+
+
+  
+
+  <head><title>
+      Attachment – vimperator labs
+    </title><link rel="search" href="/trac/search" /><link rel="help" href="/trac/wiki/TracGuide" /><link rel="alternate" href="/trac/raw-attachment/ticket/79/wmii.vimp" title="Original Format" /><link rel="up" href="/trac/ticket/79" title="Ticket #79" /><link rel="start" href="/trac/wiki" /><link rel="stylesheet" href="/trac/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/trac/pygments/trac.css" type="text/css" /><link rel="stylesheet" href="/trac/chrome/common/css/code.css" type="text/css" /><link rel="stylesheet" href="/trac/chrome/theme/vimperator.css" type="text/css" /><link rel="shortcut icon" href="/trac/chrome/site/favicon.png" type="image/png" /><link rel="icon" href="/trac/chrome/site/favicon.png" type="image/png" /><link type="application/opensearchdescription+xml" rel="search" href="/trac/search/opensearch" title="Search vimperator labs" /><script type="text/javascript" src="/trac/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/trac/chrome/common/js/trac.js"></script><script type="text/javascript" src="/trac/chrome/common/js/search.js"></script><script type="text/javascript" src="/trac/chrome/common/js/ie_pre7_hacks.js"></script><script type="text/javascript" src="/trac/chrome/common/js/folding.js"></script><script type="text/javascript">
+        jQuery(document).ready(function($) {
+          $('#preview table.code').enableCollapsibleColumns($('#preview table.code thead th.content'));
+        });
+      </script></head>
+  <body class="fluid orange">
+  <div id="wrapper">
+    <div id="skit_header" class="clearfix">
+      <div id="skit_title" class="clearfix">
+        <div id="header">
+          <a id="logo" href="http://vimperator.org"><img src="/trac/chrome/site/vimperator_labs_white.png" alt="vimperator labs" /></a>
+        </div>
+      </div>
+			<form id="search" action="/search" method="get">
+				<div>
+					<label for="proj-search">Search:</label>
+					<input type="text" id="proj-search" name="q" size="20" value="" />
+					<input type="submit" value="Search" />
+					<input type="hidden" name="wiki" value="on" />
+					<input type="hidden" name="changeset" value="on" />
+					<input type="hidden" name="ticket" value="on" />
+				</div>
+			</form>
+      <ul id="skit_metamenu">
+        <li class="first">
+          <a href="/trac/blog">Blog</a>
+        </li><li>
+          <a href="/trac/timeline">Timeline</a>
+        </li><li>
+          <a href="/trac/prefs">Preferences</a>
+        </li><li>
+          <a href="/trac/register">Register</a>
+        </li><li class="last">
+          <a href="/trac/login">Login</a>
+        </li>
+      </ul>
+			<ul id="vimp_menu">
+				<li class="first">
+				<a href="/wiki/Vimperator">Vimperator</a>
+				</li><li>
+				<a href="/wiki/Muttator">Muttator</a>
+				</li><li class="last">
+				<a href="/wiki/Xulmus">Xulmus</a>
+				</li>
+			</ul>
+    </div>
+    <div id="skit_contentwrapper" class="clearfix">
+      <div id="skit_content">
+        <div id="ctxtnav">
+          <ul class="nav">
+            <li class="first last"><a href="/trac/ticket/79">Back to Ticket #79</a></li>
+          </ul>
+        </div>
+        <div id="content" class="attachment">
+        <h1><a href="/trac/ticket/79">Ticket #79</a>: wmii.vimp</h1>
+        <table id="info" summary="Description">
+          <tbody>
+            <tr>
+              <th scope="col">
+                File wmii.vimp, <span title="1397 bytes">1.4 KB</span>
+                (added by kmaglione,  <a class="timeline" href="/trac/timeline?from=2009-04-24T21%3A51%3A41%2B0300&amp;precision=second" title="2009-04-24T21:51:41+0300 in Timeline">3 months</a> ago)
+              </th>
+            </tr>
+            <tr>
+              <td class="message searchable">
+                
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="preview" class="searchable">
+    <table class="code"><thead><tr><th class="lineno" title="Line numbers">Line</th><th class="content"> </th></tr></thead><tbody><tr><th id="L1"><a href="#L1">1</a></th><td></td></tr><tr><th id="L2"><a href="#L2">2</a></th><td>" This is inideal. I'd prefer to stuff it into a</td></tr><tr><th id="L3"><a href="#L3">3</a></th><td>" 1.5x1.5 em box and hide the overflow;</td></tr><tr><th id="L4"><a href="#L4">4</a></th><td>hi TabIcon  width: 1.5em; height: 1.5em;</td></tr><tr><th id="L5"><a href="#L5">5</a></th><td></td></tr><tr><th id="L6"><a href="#L6">6</a></th><td>js &lt;&lt;EOF</td></tr><tr><th id="L7"><a href="#L7">7</a></th><td>    let css = &lt;![CDATA[</td></tr><tr><th id="L8"><a href="#L8">8</a></th><td>        /* &lt;css&gt; */</td></tr><tr><th id="L9"><a href="#L9">9</a></th><td>        tabs &gt; * {</td></tr><tr><th id="L10"><a href="#L10">10</a></th><td>            height: 1.5em !important;</td></tr><tr><th id="L11"><a href="#L11">11</a></th><td>            -moz-box-sizing: content-box;</td></tr><tr><th id="L12"><a href="#L12">12</a></th><td>        }</td></tr><tr><th id="L13"><a href="#L13">13</a></th><td>        tabs {</td></tr><tr><th id="L14"><a href="#L14">14</a></th><td>            background-color: $2 !important;</td></tr><tr><th id="L15"><a href="#L15">15</a></th><td>            padding: 0 !important;</td></tr><tr><th id="L16"><a href="#L16">16</a></th><td>            border-width: 0 !important;</td></tr><tr><th id="L17"><a href="#L17">17</a></th><td>            border-bottom: 1px solid $7 !important;</td></tr><tr><th id="L18"><a href="#L18">18</a></th><td>        }</td></tr><tr><th id="L19"><a href="#L19">19</a></th><td>        tab {</td></tr><tr><th id="L20"><a href="#L20">20</a></th><td>            max-height: 1.5em !important;</td></tr><tr><th id="L21"><a href="#L21">21</a></th><td>            margin: 0 !important;</td></tr><tr><th id="L22"><a href="#L22">22</a></th><td>            color: $1 !important;</td></tr><tr><th id="L23"><a href="#L23">23</a></th><td>            background-image: none !important;</td></tr><tr><th id="L24"><a href="#L24">24</a></th><td>            background-color: $2 !important;</td></tr><tr><th id="L25"><a href="#L25">25</a></th><td>            border: 1px solid $3 !important;</td></tr><tr><th id="L26"><a href="#L26">26</a></th><td>        }</td></tr><tr><th id="L27"><a href="#L27">27</a></th><td>        tab[selected=true] {</td></tr><tr><th id="L28"><a href="#L28">28</a></th><td>            color: $5 !important;</td></tr><tr><th id="L29"><a href="#L29">29</a></th><td>            background-color: $6 !important;</td></tr><tr><th id="L30"><a href="#L30">30</a></th><td>            border: 1px solid $7 !important;</td></tr><tr><th id="L31"><a href="#L31">31</a></th><td>        }</td></tr><tr><th id="L32"><a href="#L32">32</a></th><td>    ]]&gt;.toString();</td></tr><tr><th id="L33"><a href="#L33">33</a></th><td>    // &lt;/css&gt;</td></tr><tr><th id="L34"><a href="#L34">34</a></th><td>    let ctl = io.system("wmiir read /ctl");</td></tr><tr><th id="L35"><a href="#L35">35</a></th><td>    if (!ctl)</td></tr><tr><th id="L36"><a href="#L36">36</a></th><td>        ctl = String(&lt;![CDATA[</td></tr><tr><th id="L37"><a href="#L37">37</a></th><td>            focuscolors #000000 #81654f #000000</td></tr><tr><th id="L38"><a href="#L38">38</a></th><td>            normcolors #000000 #c1c48b #81654f</td></tr><tr><th id="L39"><a href="#L39">39</a></th><td>        ]]&gt;);</td></tr><tr><th id="L40"><a href="#L40">40</a></th><td>    let args = ctl.match(/^normcolors.*?$/m)[0].split(/ /).concat(</td></tr><tr><th id="L41"><a href="#L41">41</a></th><td>               ctl.match(/^focuscolors.*?$/m)[0].split(/ /));</td></tr><tr><th id="L42"><a href="#L42">42</a></th><td>    styles.addSheet(true, "colorscheme", "chrome://*", css.replace(/\$(.)/g, function (m, n1) args[n1]), false);</td></tr><tr><th id="L43"><a href="#L43">43</a></th><td>EOF</td></tr></tbody></table>
+        </div>
+    </div><div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/trac/raw-attachment/ticket/79/wmii.vimp">Original Format</a>
+        </li>
+      </ul>
+    </div>
+      </div>
+    </div>
+    <div id="skit_footer">
+      <div id="footer" lang="en" xml:lang="en">
+				<!--a id="tracpowered" href="http://trac.edgewall.org/"><img
+          src="${href.chrome('common/trac_logo_mini.png')}" height="30"
+          width="107" alt="Trac Powered"/></a-->
+        <p class="left">
+          Powered by <a href="/trac/about">Trac 0.12dev-r7916</a><br />
+          By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+				</p>
+				<p class="center">
+        	Using <a href="http://evil.che.lu/projects/skittlish">skittlish</a>
+					modified by <a href="http://www.statelesssystems.com">Stateless Systems</a><br />
+        	for <a href="http://trac.edgewall.org">Trac</a>, modified for Vimperator by Daniel Bainton.
+        </p>
+        <p class="right">(c) 2006 - 2009 by<br /><a href="mailto:maxauthority@vimperator.org">Martin Stubenschrott</a></p>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
